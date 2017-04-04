@@ -2,7 +2,7 @@
 
 ##Some useful URLs:  
 * HOST_URL: http://ec2-52-40-59-253.us-west-2.compute.amazonaws.com:8080
-* CHAT_ROOM_URL(for testing only, you can browse this via your browser): http://ec2-52-40-59-253.us-west-2.compute.amazonaws.com:8080/chat
+* CHAT_ROOM_URL: (for testing only, you can browse this via your browser): http://ec2-52-40-59-253.us-west-2.compute.amazonaws.com:8080/chat
 * CHECK_ONLINE_USERS_URL: http://ec2-52-40-59-253.us-west-2.compute.amazonaws.com:8080/online_users
 
 ##Socket.io Client Side Documentation (For all Android and iOS App clients):  
@@ -63,13 +63,13 @@ socket.on("chat message", "message");
 "message" Format: just a regular string  
 
 
-(more socket methods are comming, stay tuned...)  
+(more socket methods are coming, stay tuned...)  
 
 
 
 ##Some Server & Database Instructions:  
 
-###How to connect to our server linux machine through PuTTY:
+###How to connect to our server Linux machine through PuTTY:
 
 1. Download 'putty.exe' from this Google Drive (Windows Version) or from web (if you use Mac)
 2. Download the 'vgo_putty_keypair.ppk' from Google Drive
@@ -78,12 +78,12 @@ socket.on("chat message", "message");
 5. On the left-side Category bar expand "SSH" tag and click on "Auth"
 6. Click on "Browse..." to browse the 'vgo_putty_keypair.ppk'  
 7. Go back to "Session" tag and click on "Open" to connect to our server
-8. When you see "login as: " in linux terminal, type in "bitnami" and press Enter
+8. When you see "login as: " in Linux terminal, type in "bitnami" and press Enter
 
 
 ###How to deploy Github project:
 
-1. Log in to Bitnami linux machine (complete the steps above)
+1. Log in to Bitnami Linux machine (complete the steps above)
 2. Run $ls
 3. Run $cd apps
 4. Run $cd VGO_Node.js_Server
